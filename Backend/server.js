@@ -10,7 +10,7 @@ app.get('/ping', (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-if(!process.env.PORT) console.warn("PORT environment is not setUsing default port 3000")
+if(!process.env.PORT) console.warn("PORT environment is not set. Using default port 3000")
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
