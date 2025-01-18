@@ -4,7 +4,8 @@
   "description": "The **Ridiculous Movie Plot Generator** is a funny and entertaining web app that helps you find and rate movies with the most absurd and silly plots. Think alien spaghetti monsters or talking pets saving the world! This platform is all about having a laugh and discovering the most bizarre movie storylines. You can log in, rate movies, leave reviews, and get personalized recommendations based on your unique sense of humor.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js "
   },
   "repository": {
     "type": "git",
