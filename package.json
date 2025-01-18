@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/kalviumcommunity/S72_Ridiculous-movie-plot-generator/issues"
   },
-  "homepage": "https://github.com/kalviumcommunity/S72_Ridiculous-movie-plot-generator#readme"
+  "homepage": "https://github.com/kalviumcommunity/S72_Ridiculous-movie-plot-generator#readme",
+  "dependencies": {
+    "loader": "^2.1.1",
+    "render": "^0.1.4"
+  }
 }
