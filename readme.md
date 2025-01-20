@@ -78,6 +78,9 @@ The **Ridiculous Movie Plot Generator** is a funny and entertaining web app that
 - `GET /api/user/profile`: Get the user's profile and preferences.
 - `POST /api/user/preferences`: Update user preferences.
 
+### Website
+https://s72-ridiculous-movie-plot-generator-1.onrender.com
+
 ## Why This Project?
 This project is the perfect mix of creativity and coding. Here’s why it’s awesome:
 
