@@ -81,7 +81,7 @@ The **Ridiculous Movie Plot Generator** is a funny and entertaining web app that
 ### Website
 https://s72-ridiculous-movie-plot-generator-1.onrender.com
 
-### Frotend
+### Frontend
 https://s72-ridiculous-movie-plot-generator.pages.dev/
  
 ## Why This Project?
