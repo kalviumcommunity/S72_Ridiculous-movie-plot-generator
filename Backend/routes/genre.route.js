@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Genre = require("./genre.model");
+const Genre = require("../models/genre.model");
 
 router.post("/genres", async (req, res) => {
   try {

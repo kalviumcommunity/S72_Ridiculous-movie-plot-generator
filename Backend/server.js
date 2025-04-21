@@ -2,13 +2,15 @@ const express = require('express');
 const app = express();
 const mongoose=require('mongoose')
 const cors= require('cors')
-const routes=require('./routes')
+const routes=require('./routes/genre.route')
+const movies=require('./routes/movie.route')
 
 require('dotenv').config()
 
 app.use(express.json())
 app.use(cors())
 app.use('/api',routes)
+app.use('/api',movies)
 
 app.get('/ping', (req, res) => {
     try{
@@ -29,9 +31,9 @@ app.listen(PORT, () => {
 
 
 const connectDatabase=()=>{
-    mongoose.connect(process.env.MONGO_URL,{ssl:true})
+    mongoose.connect(process.env.MONGO_URL,{ssl:true,family: 4 })
     .then((data)=>{console.log('Databse is connected : ',data.connection.host)})
-    .catch((err)=>console.log('Database connection failed ',err.message))
+    .catch((err)=>console.log('Database connection failed ',err))
 }
 
 connectDatabase()
